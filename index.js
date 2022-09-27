@@ -178,4 +178,4 @@ function getSessionStorage(keyName){
 
 function setSessionStorage(key, value){
     window.sessionStorage.setItem(key,value);
-} 
+}
