@@ -28,6 +28,7 @@ function handleGetMeeting() {
   });
 }
 
+
 function handleGetSpace() {
   app.context.getSpace().then((s) => {
     log('getSpace()', s);
